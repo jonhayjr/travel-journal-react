@@ -1,0 +1,39 @@
+/*Import Google Font*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+
+/*General Styles*/
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    margin: 0;   
+}
+
+/*Layout*/ 
+.header {
+    background-color: #F55A5A;
+    color: #FFF;
+    padding: 1.25em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__logo {
+    margin-right: 0.45em;
+}
+
+.header__title {
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-transform: lowercase;
+}
