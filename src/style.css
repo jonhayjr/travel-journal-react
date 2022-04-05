@@ -12,10 +12,16 @@ html, body {
 
 body {
     font-family: 'Inter', sans-serif;
+    height: 100vh;
 }
 
 h1 {
     margin: 0;   
+}
+
+img {
+    display: inline-block;
+    max-width: 100%;
 }
 
 /*Layout*/ 
@@ -36,4 +42,31 @@ h1 {
     font-weight: 500;
     font-size: 0.9rem;
     text-transform: lowercase;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2.44em;
+}
+
+.card {
+    display: flex;
+    width: 471px;
+    height: 168px;
+}
+
+.card__img {
+    border-radius: 5px;
+    object-fit: cover;
+    flex-basis: 125px;
+    min-width: 0;
+    min-height: 0;
+    margin-right: 1.1875em;
+}
+
+.card__body {
+
 }
