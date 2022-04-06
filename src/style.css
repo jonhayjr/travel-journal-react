@@ -13,9 +13,12 @@ html, body {
 body {
     font-family: 'Inter', sans-serif;
     height: 100vh;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #2B283A;
 }
 
-h1 {
+h1, h2 {
     margin: 0;   
 }
 
@@ -44,7 +47,7 @@ img {
     text-transform: lowercase;
 }
 
-.flex-container {
+.card-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,10 +55,15 @@ img {
     padding: 2.44em;
 }
 
+/*Card*/
 .card {
     display: flex;
     width: 471px;
     height: 168px;
+}
+
+.card + .card {
+    margin-top: 1.8125em;
 }
 
 .card__img {
@@ -68,5 +76,43 @@ img {
 }
 
 .card__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 0.64rem;
+}
 
+.card__body-top {
+    margin-bottom: 0.5625em;
+}
+
+.card__location-icon {
+    margin-right: 0.25em;
+}
+
+.card__country {
+    letter-spacing: 0.17em;
+}
+
+.card__google-maps-link {
+    text-decoration-line: underline;
+    color: #918E9B;
+    margin-left: 0.75rem;
+}
+
+.card__title {
+    font-weight: 700;
+    font-size: 1.5625rem;
+}
+
+.card__date-range {
+    font-weight: 700;
+    margin-top: 1.375rem;
+    margin-bottom: 0.5625rem;
+}
+
+.card__description {
+    line-height: 0.94rem;
+    max-width: 326px;
+    margin: 0;
 }

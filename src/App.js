@@ -4,13 +4,14 @@ import data from './data';
 
 /*Import Components*/ 
 import Header from './components/Header';
+import CardContainer from './components/CardContainer';
 import Card from './components/Card';
 
 const App = () => {
   return (
     <div>
       <Header/>
-      <div className="flex-container">
+      <CardContainer>
       {
         data.map((item, index) => (
           <Card 
@@ -19,7 +20,7 @@ const App = () => {
           />
         ))
       }
-      </div>
+      </CardContainer>
     </div>
   );
 }
