@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Travel Journal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an app that display travel details. This is a project from Scrimba Frontend Developer Career Path was built using React.
+
+Click [here] (https://travel-app-lowercase.herokuapp.com/) for a preview.
 
 ## Available Scripts
 
