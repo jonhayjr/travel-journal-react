@@ -2,7 +2,7 @@
 
 This is an app that display travel details. This is a project from Scrimba Frontend Developer Career Path was built using React.
 
-Click [here] (https://travel-app-lowercase.herokuapp.com/) for a preview.
+Click [here](https://travel-app-lowercase.herokuapp.com/) for a preview.
 
 ## Available Scripts
 
